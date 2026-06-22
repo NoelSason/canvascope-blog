@@ -101,6 +101,27 @@
 
   <main>
 
+    <!-- June 22 -->
+    <article>
+      <div class="meta">June 22, 2026 · <span class="tag">Engineering</span></div>
+      <h2>Canvascope and Lectra are becoming one workspace</h2>
+      <p class="lede">I went back through the extension and Lectra commit histories. The meaningful story is not another version bump. It is the way the two products are turning into one connected study system.</p>
+      <p>Canvascope is now at the 10.1 line, and the extension has grown well past search. The newest architecture splits the code into a cleaner source layout, adds a full AI side panel, parses PDFs locally, searches scanned images with offline OCR, and routes AI work through a local-first path when Chrome's on-device model is available. When a local model is not ready, the same AI surface can fall back through the secure Supabase route, so the experience stays useful without giving up the privacy-first default.</p>
+      <p>The bigger change is that Canvascope now understands more of the student, not just the LMS page. Student Profiles let the assistant adapt tone, examples, and planning around a student's courses and goals without repeating private profile details back into the answer. Smart Planner turns upcoming deadlines into editable study blocks that can become to-dos, reminders, or calendar events. The side panel can answer from the active Canvas page, a PDF, stored assignments, notes, and planner context, with retrieval kept tight so citations stay attached to real course material.</p>
+      <p>DropBridge also took a major step forward. Earlier posts talked about DropBridge v2 making file handoff feel fast. The latest work turns that into a realtime-first delivery system. Lectra can queue an annotated PDF for Canvascope, the Chrome extension keeps an offscreen receiver alive, Supabase Realtime wakes the browser with the specific upload id, and Canvascope claims that exact file before falling back to the slower polling path. Heartbeats, delivery receipts, sender-device checks, and download status tracking make the bridge observable instead of just hopeful.</p>
+      <p>That matters because Lectra is no longer just a future companion in a paragraph at the bottom of an extension update. The iPad app has gone through a serious release-hardening pass: a Documents-first library, Apple Pencil annotation with pen, highlighter, eraser, and lasso tools, Canvascope import folders, export back to the browser, local recovery snapshots, optional iCloud backup, App Intents for opening and summarizing documents, and on-device Apple Foundation Models for summaries, flashcards, practice quizzes, tags, and grounded document Q&amp;A.</p>
+      <p>The Lectra App Store build also got narrower in a good way. Pre-release Course Brain, Canvas course import, and Gradescope submission workflows were removed from the iPad app target because they depended on third-party service access that is not ready for release. The shipping shape is first-party: import documents, annotate them, ask questions, generate study aids, back them up, and move them through Canvascope. Old third-party traces are kept only as cleanup and neutral imported-file migration logic, not as hidden product features.</p>
+      <p>A few infrastructure updates are worth calling out too:</p>
+      <ul>
+        <li><strong>DropBridge v3 receipts</strong> track wake, claim, download, cancellation, and completion stages so transfer bugs are diagnosable.</li>
+        <li><strong>RISC Cross-Account Protection</strong> lets Google security events revoke sessions and block sign-in for compromised accounts until they are safe again.</li>
+        <li><strong>Lectra privacy manifests and account deletion</strong> were added for the app and share extension as part of App Store preparation.</li>
+        <li><strong>Attach from Lectra</strong> gives browser workflows a generic picker for pulling finished Lectra PDFs back from the student's library.</li>
+      </ul>
+      <p>The commit histories still include plenty of work that is not worth a public post: automated bug-report syncs, icon swaps, build numbers, cleanup commits, signing configuration, and internal test reorganization. Those matter for shipping, but they are not the story. The story is that Canvascope and Lectra are becoming one workflow: find the material on desktop, study it with local AI, annotate it on iPad, and bring the finished work back without email, AirDrop juggling, or manual file cleanup.</p>
+      <p>That is the product direction from here. Canvascope is the browser-side study layer. Lectra is the Pencil-first document workspace. DropBridge is the bridge between them. The more invisible that bridge gets, the closer this all feels to the workspace students should have had from the beginning.</p>
+    </article>
+
     <!-- June 16 -->
     <article>
       <div class="meta">June 16, 2026 · <span class="tag">Engineering</span></div>
