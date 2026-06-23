@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://canvascope-blog.vercel.app/</loc>
-    <lastmod>2026-06-22</lastmod>
+    <loc>https://blog.canvascope.org/</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://canvascope-blog.vercel.app/llms.txt</loc>
-    <lastmod>2026-06-22</lastmod>
+    <loc>https://blog.canvascope.org/llms.txt</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://canvascope-blog.vercel.app/canvascope.md</loc>
-    <lastmod>2026-06-22</lastmod>
+    <loc>https://blog.canvascope.org/canvascope.md</loc>
+    <lastmod>2026-06-23</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>

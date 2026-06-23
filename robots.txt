@@ -16,4 +16,4 @@ Allow: /
 User-agent: Google-Extended
 Allow: /
 
-Sitemap: https://canvascope-blog.vercel.app/sitemap.xml
+Sitemap: https://blog.canvascope.org/sitemap.xml

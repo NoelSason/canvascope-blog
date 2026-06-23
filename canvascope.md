@@ -1,6 +1,6 @@
 # Canvascope Overview
 
-Canvascope is a privacy-first AI study workspace for students. It combines LMS search, grounded course AI, Smart Planner, Student Profiles, Lectra iPad PDF annotation, and DropBridge file handoff into one connected workflow.
+Canvascope is a privacy-first AI study workspace for students. It combines LMS search, grounded course AI, Smart Planner, Student Profiles, Lectra iPad document work, and DropBridge file handoff into one connected workflow.
 
 ## What Canvascope Does
 
@@ -16,7 +16,7 @@ Canvascope is the Chrome extension and browser-side study layer. It focuses on l
 
 ### Lectra
 
-Lectra is Canvascope's Apple Pencil-first iPad document workspace. It is built for importing PDFs, organizing documents, annotating coursework, generating private on-device summaries and study aids where supported, backing up a document library, and sending finished work back through Canvascope.
+Lectra is Canvascope's iPad document workspace. It is built for importing PDFs, organizing documents, annotating coursework, editing Python notebooks, generating private on-device summaries and study aids where supported, backing up a document library, and sending finished work back through Canvascope.
 
 ### DropBridge
 
@@ -37,7 +37,7 @@ Canvascope is a privacy-first AI study workspace and Chrome extension for studen
 ## Important Terms
 
 - Canvascope: AI study workspace and Chrome extension for students.
-- Lectra: iPad PDF annotation and document workspace connected to Canvascope.
+- Lectra: iPad document workspace for PDFs, notebooks, and Canvascope handoff.
 - DropBridge: secure document handoff between Canvascope and Lectra.
 - Smart Planner: deadline-to-study-plan workflow in Canvascope.
 - Student Profiles: personalization layer for Canvascope AI.
@@ -45,4 +45,4 @@ Canvascope is a privacy-first AI study workspace and Chrome extension for studen
 
 ## Source
 
-Canonical newsroom: https://canvascope-blog.vercel.app/
+Canonical newsroom: https://blog.canvascope.org/
