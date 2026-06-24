@@ -472,6 +472,17 @@
 
   <main>
 
+    <!-- June 24 -->
+    <article>
+      <div class="meta">June 24, 2026 · <span class="tag">Engineering</span></div>
+      <h2>Lectra now runs a real terminal, git, and Python — on the iPad</h2>
+      <p class="lede">Notebooks were the first step. The next was giving coursework code a real home.</p>
+      <p>More and more student work lives in a repo: a data science project, a problem set with a few scripts, a lab notebook that wants version history. Lectra added a full <strong>Projects</strong> workspace so that work can live on the iPad instead of bouncing between a laptop and a cloud IDE. You can clone a GitHub repo, edit files beside your PDFs and notebooks, run Python, and commit and push — without leaving the app.</p>
+      <p>Underneath, it is more than a dressed-up text box. iOS has no <code>fork</code>/<code>exec</code>, so the terminal is a from-scratch POSIX-style shell — a real lexer, parser, pipelines, redirection, globbing, and around two dozen built-in commands — operating directly on the app's own files. Git is the real thing: <code>isomorphic-git</code> runs in a hidden web layer with its filesystem and network bridged down to native Swift, so <code>clone</code>, <code>commit</code>, <code>pull</code>, and <code>push</code> talk to GitHub over authenticated HTTPS. Python runs through an embedded runtime, so <code>python script.py</code> does what you would expect.</p>
+      <p>One detail we care about: it all shares a single sandboxed filesystem. The terminal, the editor, and git operate on the exact same files, so <code>git status</code> reflects precisely what the editor just saved — no hidden copies, no sync step. Every path is confined to the app's sandbox, and your GitHub token is only ever attached to GitHub.</p>
+      <p>There is a one-tap <strong>Sync</strong> too: it stages your latest edits, commits, pulls, and pushes in a single pass, so the common case — save my work back to GitHub — is one button instead of five commands. The goal is the same as it was with notebooks: the code that shows up in real coursework should feel like part of the workspace, not a reason to go find a laptop.</p>
+    </article>
+
     <!-- June 23 -->
     <article>
       <div class="meta">June 23, 2026 · <span class="tag">Product</span></div>

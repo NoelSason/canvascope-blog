@@ -16,7 +16,7 @@ Canvascope is the Chrome extension and browser-side study layer. It focuses on l
 
 ### Lectra
 
-Lectra is Canvascope's iPad document workspace. It is built for importing PDFs, organizing documents, annotating coursework, editing Python notebooks, generating private on-device summaries and study aids where supported, backing up a document library, and sending finished work back through Canvascope.
+Lectra is Canvascope's iPad document workspace. It is built for importing PDFs, organizing documents, annotating coursework, editing Python notebooks, generating private on-device summaries and study aids where supported, backing up a document library, and sending finished work back through Canvascope. It also includes a Projects workspace with an on-device coding environment — a terminal, real git (clone/commit/pull/push to GitHub), and a Python runtime — so code-based coursework lives beside PDFs and notebooks instead of on a separate machine.
 
 ### DropBridge
 
