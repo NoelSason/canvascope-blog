@@ -1,0 +1,10 @@
+{
+  "name": "canvascope-blog",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "python3 -m http.server 5173",
+    "check:mirror": "cmp -s index.html canvascope-blog.html",
+    "test": "npm run check:mirror"
+  }
+}
