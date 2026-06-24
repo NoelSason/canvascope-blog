@@ -1,4 +1,4 @@
-# Canvascope Overview
+# Canvascope Overview - test
 
 Canvascope is a privacy-first AI study workspace for students. It combines LMS search, grounded course AI, Smart Planner, Student Profiles, Lectra iPad document work, and DropBridge file handoff into one connected workflow.
 
