@@ -186,7 +186,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://blog.canvascope.org/#post-2026-06-23-ipynb",
-      "headline": "Python notebooks are becoming first-class Lectra documents starting today",
+      "headline": "Python notebooks are first-class Lectra documents now",
       "datePublished": "2026-06-23",
       "dateModified": "2026-06-23",
       "description": "Lectra added native .ipynb support so Python notebooks can live beside PDFs, notes, whiteboards, and folders in the same iPad workspace.",
@@ -207,7 +207,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://blog.canvascope.org/#post-2026-06-21",
-      "headline": "Lectra PDFs can now come back into browser workflows",
+      "headline": "Lectra PDFs can come back into browser workflows",
       "datePublished": "2026-06-21",
       "dateModified": "2026-06-22",
       "description": "Canvascope 10.1 added Attach from Lectra, a document picker that brings finished Lectra PDFs back into supported browser upload workflows.",
@@ -228,7 +228,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://blog.canvascope.org/#post-2026-06-20",
-      "headline": "Lectra moved into App Store release shape",
+      "headline": "Getting Lectra into App Store shape",
       "datePublished": "2026-06-20",
       "dateModified": "2026-06-22",
       "description": "Lectra narrowed into a first-party iPad app for importing documents, Apple Pencil annotation, private on-device intelligence, backup, and Canvascope handoff.",
@@ -249,7 +249,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://blog.canvascope.org/#post-2026-06-19",
-      "headline": "Lectra gained on-device intelligence and Shortcuts hooks",
+      "headline": "Lectra gets on-device intelligence and Shortcuts hooks",
       "datePublished": "2026-06-19",
       "dateModified": "2026-06-22",
       "description": "Lectra added on-device summaries, tags, flashcards, quizzes, grounded document Q&A, and App Intents for Shortcuts and Siri.",
@@ -312,7 +312,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://blog.canvascope.org/#post-2026-06-14-dropbridge-routing",
-      "headline": "DropBridge got safer production routing",
+      "headline": "Safer production routing for DropBridge",
       "datePublished": "2026-06-14",
       "dateModified": "2026-06-22",
       "description": "DropBridge reconciled production migration history and added sender device routing so file handoff can avoid duplicate or misdirected pickups.",
@@ -333,7 +333,7 @@
     {
       "@type": "BlogPosting",
       "@id": "https://blog.canvascope.org/#post-2026-06-13-risc",
-      "headline": "Canvascope added real account-event protection",
+      "headline": "Real account-event protection in Canvascope",
       "datePublished": "2026-06-13",
       "dateModified": "2026-06-22",
       "description": "Canvascope added Google's RISC security event stream so high-risk account events can revoke sessions and block unsafe sign-ins.",
@@ -475,304 +475,304 @@
     <!-- June 25 -->
     <article>
       <div class="meta">June 25, 2026 · <span class="tag">Engineering</span></div>
-      <h2>Canvascope can now take action — and it's built so it can't do your work for you</h2>
-      <p class="lede">For a long time the assistant could answer questions about your courses. Now it can take the next steps too — safely.</p>
-      <p>Until now, every action was still on you. Canvascope could read your courses and answer with citations, but you were the one who had to make the to-do, add the calendar event, or turn a pile of deadlines into a plan. The new agent closes that gap. Ask it something like <em>"help me get ready for my biochem class this week,"</em> and it can check your calendar, look up what's due, search your own course materials, and turn that into a study plan, to-dos, or calendar events.</p>
-      <p>The difference is that it now works in steps instead of one shot. It decides what it needs, uses a tool to get it, looks at the result, and decides what to do next — a few times over — until it actually has an answer. And you can watch it happen: <strong>Checking your calendar → Looking up deadlines → Drafting a plan</strong>, each step ticking from in-progress to done, right in the side panel.</p>
-      <p>What it's allowed to do is deliberately small. It can <strong>read</strong> — your active page, your indexed course materials, upcoming deadlines, grades, and your calendar — and it can <strong>create study aids</strong> — a to-do, a calendar event, a study plan. That's the entire list.</p>
-      <p>The part we care about most: <strong>it cannot submit your work.</strong> There is no button for it to press — that capability simply doesn't exist in the agent. On top of that, anything that creates something runs through a check that blocks work which looks like turning in a graded assignment, every action it takes is logged, anything it does can be undone, and a single switch pauses it completely. It stays inside the extension and only reaches out when a task needs it, the same as the rest of Canvascope.</p>
-      <p>It also checks in once a day, when you want it to, with a short briefing of what's coming up — so the first thing you see is a head start instead of a blank search box. This is the first step toward an assistant that doesn't just tell you what to do, but helps you get going — while keeping the one line that matters: it helps you learn, it never does the graded work for you.</p>
+      <h2>Canvascope can take action now, and it still can't do your homework</h2>
+      <p class="lede">The assistant has been able to answer questions about your courses for a while. The thing it couldn't do was act on the answer. Now it can.</p>
+      <p>Up to now the actual work was always left to you. Canvascope would read your courses and answer with citations, and then you'd be the one making the to-do, adding the calendar event, or turning a wall of deadlines into some kind of plan. The new agent picks up at that point. You can ask it something like <em>"help me get ready for my biochem class this week,"</em> and it'll check your calendar, look up what's due, dig through your own course materials, and hand back a study plan, a set of to-dos, or calendar events.</p>
+      <p>What changed under the hood is that it works in steps now instead of trying to do everything in one shot. It figures out what it needs, calls a tool to get it, reads the result, then decides on the next move, and repeats that a handful of times until it actually has an answer. You can watch the whole thing in the side panel: <strong>Checking your calendar → Looking up deadlines → Drafting a plan</strong>, each step flipping from in-progress to done.</p>
+      <p>I kept the list of things it's allowed to do short on purpose. It can <strong>read</strong> your active page, your indexed course materials, upcoming deadlines, grades, and your calendar. And it can <strong>create study aids</strong>: a to-do, a calendar event, a study plan. That's it. There's nothing else on the list.</p>
+      <p>The line I wasn't willing to cross is submitting your work. <strong>It can't.</strong> There's no button for it to press, because that capability was never built into the agent in the first place. Beyond that, anything it creates runs through a check that blocks anything resembling a graded submission, every action gets logged, every action can be undone, and one switch pauses the whole thing. Like the rest of Canvascope, it lives inside the extension and only reaches out when a task genuinely needs it.</p>
+      <p>It'll also check in once a day, if you want it to, with a short rundown of what's coming up. So instead of opening to an empty search box, you open to a bit of a head start. That's the direction I'm taking this: an assistant that helps you actually get moving, without ever crossing the one line that matters. It helps you learn. It doesn't do the graded work for you.</p>
     </article>
 
     <!-- June 24 -->
     <article>
       <div class="meta">June 24, 2026 · <span class="tag">Engineering</span></div>
-      <h2>Lectra now runs a real terminal, git, and Python — on the iPad</h2>
-      <p class="lede">Notebooks were the first step. The next was giving coursework code a real home.</p>
-      <p>More and more student work lives in a repo: a data science project, a problem set with a few scripts, a lab notebook that wants version history. Lectra added a full <strong>Projects</strong> workspace so that work can live on the iPad instead of bouncing between a laptop and a cloud IDE. You can clone a GitHub repo, edit files beside your PDFs and notebooks, run Python, and commit and push — without leaving the app.</p>
-      <p>Underneath, it is more than a dressed-up text box. iOS has no <code>fork</code>/<code>exec</code>, so the terminal is a from-scratch POSIX-style shell — a real lexer, parser, pipelines, redirection, globbing, and around two dozen built-in commands — operating directly on the app's own files. Git is the real thing: <code>isomorphic-git</code> runs in a hidden web layer with its filesystem and network bridged down to native Swift, so <code>clone</code>, <code>commit</code>, <code>pull</code>, and <code>push</code> talk to GitHub over authenticated HTTPS. Python runs through an embedded runtime, so <code>python script.py</code> does what you would expect.</p>
-      <p>One detail we care about: it all shares a single sandboxed filesystem. The terminal, the editor, and git operate on the exact same files, so <code>git status</code> reflects precisely what the editor just saved — no hidden copies, no sync step. Every path is confined to the app's sandbox, and your GitHub token is only ever attached to GitHub.</p>
-      <p>There is a one-tap <strong>Sync</strong> too: it stages your latest edits, commits, pulls, and pushes in a single pass, so the common case — save my work back to GitHub — is one button instead of five commands. The goal is the same as it was with notebooks: the code that shows up in real coursework should feel like part of the workspace, not a reason to go find a laptop.</p>
+      <h2>Lectra runs a real terminal, git, and Python on the iPad now</h2>
+      <p class="lede">Notebooks got code into Lectra. This is about giving that code somewhere to actually live.</p>
+      <p>A lot of student work these days is just a repo. A data science project, a problem set that's really a few scripts, a lab notebook that you'd like to have version history for. So Lectra got a full <strong>Projects</strong> workspace, the idea being that this work can sit on the iPad instead of bouncing between a laptop and some cloud IDE. You can clone a GitHub repo, edit files right next to your PDFs and notebooks, run Python, and commit and push, all without leaving the app.</p>
+      <p>I want to be clear this isn't a dressed-up text box. iOS gives you no <code>fork</code>/<code>exec</code>, so the terminal is a POSIX-style shell I wrote from scratch: a real lexer, parser, pipelines, redirection, globbing, and around two dozen built-in commands, all operating on the app's own files. Git is the genuine article too. <code>isomorphic-git</code> runs in a hidden web layer with its filesystem and network bridged down to native Swift, which means <code>clone</code>, <code>commit</code>, <code>pull</code>, and <code>push</code> are really talking to GitHub over authenticated HTTPS. Python runs through an embedded runtime, so <code>python script.py</code> does the thing you'd expect it to.</p>
+      <p>The detail I'm proudest of is that all of it shares one sandboxed filesystem. The terminal, the editor, and git are looking at the exact same files, so <code>git status</code> shows precisely what the editor just saved. No hidden copies, no sync step in between. Every path stays inside the app's sandbox, and your GitHub token only ever gets attached to requests going to GitHub.</p>
+      <p>There's also a one-tap <strong>Sync</strong>. It stages your latest edits, commits, pulls, and pushes in a single pass, so the thing you do constantly, save my work back to GitHub, is one button rather than five commands. Same thing I was going for with notebooks: if code shows up in your coursework, it should feel like part of the workspace, not the reason you have to go find your laptop.</p>
     </article>
 
     <!-- June 23 -->
     <article>
       <div class="meta">June 23, 2026 · <span class="tag">Product</span></div>
-      <h2>Python notebooks are becoming first-class Lectra documents</h2>
-      <p class="lede">Lectra started with PDFs, but students rarely work in only one format.</p>
-      <p>A data science assignment might have a problem set PDF, a few markdown notes, and a short Python analysis. A biology lab might have a protocol, an annotated paper, and a quick calculation. Those pieces usually end up scattered across a PDF editor, a notebook site, a notes app, and a file manager.</p>
-      <p>Native <code>.ipynb</code> support is meant to pull that work back together. Python notebooks can now be created from the same <strong>+New</strong> menu as notebooks, whiteboards, folders, and PDF imports. They live in the current folder beside the rest of the assignment instead of being tucked away in a separate developer corner.</p>
-      <p>The notebook is not just a preview. Lectra can edit code and markdown cells, run Python, capture output, and keep state between cells. The goal is not to turn the iPad into a desktop IDE. It is to make the small bits of code that show up in real coursework feel like part of the same workspace as the reading, annotation, and notes.</p>
-      <p>The editor details matter too: Python syntax highlighting, automatic indentation after a colon, and keyboard shortcuts for running and moving through cells. Those are small pieces, but they are what keep a notebook from feeling like a dressed-up text box.</p>
-      <p>There is still polish ahead. Notebook thumbnails need their own look, deletion should clean up the underlying files, and more notebook features will come over time. But the foundation is now there: PDFs, notes, whiteboards, folders, imports, and Python notebooks can all live in one Lectra library.</p>
+      <h2>Python notebooks are first-class Lectra documents now</h2>
+      <p class="lede">Lectra started with PDFs. The problem is that almost no class actually fits in one file format.</p>
+      <p>Think about a data science assignment: there's the problem set PDF, a couple of markdown notes, and a short Python analysis. Or a biology lab, with a protocol, an annotated paper, and some quick calculation off to the side. In practice all of those pieces end up scattered across a PDF editor, a notebook site, a notes app, and wherever your file manager dumped the download.</p>
+      <p>Native <code>.ipynb</code> support is my attempt to pull that back into one place. You can create a Python notebook from the same <strong>+New</strong> menu you already use for notebooks, whiteboards, folders, and PDF imports, and it lands in the current folder right next to the rest of the assignment, not off in some separate developer corner of the app.</p>
+      <p>And it's a working notebook, not a preview. Lectra edits code and markdown cells, runs Python, captures the output, and holds state between cells. I'm not trying to turn the iPad into a desktop IDE. I just want the small bits of code that show up in actual coursework to feel like they belong with the reading and the annotation and the notes.</p>
+      <p>The editor details are where a notebook either feels real or feels fake, so those got attention too: Python syntax highlighting, auto-indent after a colon, keyboard shortcuts for running cells and moving between them. Little things, but they're what keep it from feeling like a text box pretending to be a notebook.</p>
+      <p>It's not finished. Notebook thumbnails still need their own look, deleting a notebook should clean up the files underneath it, and there's more to add. But the base is there now, and that's what I was after: PDFs, notes, whiteboards, folders, imports, and Python notebooks all sitting in one Lectra library.</p>
     </article>
 
     <!-- June 21 -->
     <article>
       <div class="meta">June 21, 2026 · <span class="tag">Product</span></div>
-      <h2>Lectra PDFs can now come back into browser workflows</h2>
-      <p class="lede">Today, Canvascope 10.1 turned the Lectra handoff into a two-way workflow.</p>
-      <p>Canvascope can now surface a <strong>Select from Lectra</strong> picker inside supported browser upload flows. The picker loads a student's Lectra library through the extension background worker, shows searchable document rows, renders PDF thumbnails without breaking strict page security rules, and fills the page's file input with the finished PDF.</p>
-      <p>The first consumer is Gradescope's upload modal, but the important part is the generic layer underneath it. <code>Attach from Lectra</code> is page-agnostic, so future assignment upload flows can use the same document picker instead of rebuilding the bridge one page at a time.</p>
-      <p>Lectra also got release-build polish on the same day: cleaner export names, editor and library fixes, Xcode Cloud setup, shared scheme work, and cleanup around accidental dependency tracking. The goal is simple: annotate on iPad, then bring the finished file back to the browser without hunting through downloads.</p>
+      <h2>Lectra PDFs can come back into browser workflows</h2>
+      <p class="lede">The handoff used to only go one way: browser to iPad. With Canvascope 10.1 it goes both.</p>
+      <p>Canvascope can now drop a <strong>Select from Lectra</strong> picker into supported browser upload flows. It loads your Lectra library through the extension's background worker, gives you searchable rows of documents, renders the PDF thumbnails without tripping over a page's strict security rules, and fills the file input with the finished PDF when you pick one.</p>
+      <p>The first place this shows up is Gradescope's upload modal, but honestly that's not the part I care about. The part I care about is the generic layer sitting under it. <code>Attach from Lectra</code> doesn't know or care which page it's on, so the next assignment upload flow I want to support can reuse the same picker instead of me rebuilding the bridge from scratch for every site.</p>
+      <p>Lectra got some release-build cleanup the same day too: clearer export names, a handful of editor and library fixes, Xcode Cloud setup, shared scheme work, and untangling some dependencies that were getting tracked by accident. What I was chasing the whole time was a pretty mundane thing. Annotate on the iPad, get the finished file back into the browser, and don't make me go digging through my downloads folder to do it.</p>
     </article>
 
     <!-- June 20 -->
     <article>
       <div class="meta">June 20, 2026 · <span class="tag">Release</span></div>
-      <h2>Lectra moved into App Store release shape</h2>
-      <p class="lede">Today, Lectra became a tighter first-party app instead of a bundle of every experiment we had built.</p>
-      <p>The iPad app now focuses on the core Lectra workflow: import documents, organize them, annotate with Apple Pencil, use private on-device intelligence, back up the library, and hand finished work back to Canvascope. That meant removing the pre-release Course Brain, Canvas course import, and Gradescope submission surfaces from the iPad target because those flows depended on third-party service access that is not ready for release.</p>
-      <p>We kept the user's documents safe while narrowing the product. Legacy third-party traces are now cleanup and migration code only, with old imported files moved into neutral local folders instead of powering hidden integrations.</p>
-      <p>This pass also added the App Store-facing pieces that matter before submission: privacy manifests for the app and share extension, account deletion support, App Review notes, refreshed app assets, and tests around the Documents-only release surface.</p>
+      <h2>Getting Lectra into App Store shape</h2>
+      <p class="lede">For a while Lectra was a bundle of every experiment I'd built. This was the pass where it became one focused app.</p>
+      <p>The iPad app is now built around the workflow that actually matters: import documents, organize them, annotate with Apple Pencil, use the private on-device intelligence, back up your library, and hand finished work back to Canvascope. Getting there meant pulling the pre-release Course Brain, the Canvas course import, and the Gradescope submission surfaces out of the iPad target, since all of those leaned on third-party service access that isn't ready to ship.</p>
+      <p>I was careful not to lose anyone's documents while doing the narrowing. The old third-party code paths are migration and cleanup only at this point, and files that came in through those flows got moved into plain local folders rather than quietly feeding integrations that no longer exist.</p>
+      <p>This pass also added the unglamorous App Store prerequisites you can't submit without: privacy manifests for the app and the share extension, account deletion, App Review notes, refreshed assets, and tests covering the Documents-only release surface.</p>
     </article>
 
     <!-- June 19 -->
     <article>
       <div class="meta">June 19, 2026 · <span class="tag">Product</span></div>
-      <h2>Lectra gained on-device intelligence and Shortcuts hooks</h2>
-      <p>Today, Lectra's intelligence layer moved onto the iPad. The app gained document summaries, auto-generated tags, flashcards, practice quizzes, and grounded document Q&amp;A built around Apple's Foundation Models path.</p>
-      <p>We also added App Intents for the workflows students should be able to trigger quickly: open a document, summarize a document, and generate study aids. Those intents make Lectra visible to Shortcuts and Siri instead of keeping every workflow trapped inside the app UI.</p>
-      <p>The same work strengthened the Canvascope bridge. Export to Canvascope now waits for a real upload receipt, tracks terminal delivery states, and shows clear feedback when the desktop extension downloads, cancels, or needs to be opened. DropBridge is becoming a visible delivery system, not just a background upload.</p>
+      <h2>Lectra gets on-device intelligence and Shortcuts hooks</h2>
+      <p>Lectra's intelligence layer runs on the iPad now. The app picked up document summaries, auto-generated tags, flashcards, practice quizzes, and grounded document Q&amp;A, all built on Apple's Foundation Models path so the work stays on the device.</p>
+      <p>I also wired up App Intents for the few things you'd want to trigger fast: open a document, summarize one, generate study aids from it. That's what makes Lectra show up in Shortcuts and Siri, instead of every workflow being stuck behind the app's own UI.</p>
+      <p>The same chunk of work tightened up the Canvascope bridge. Exporting to Canvascope now waits for an actual upload receipt, tracks the delivery through to its final state, and tells you clearly when the desktop extension downloads the file, cancels, or needs to be opened first. I want DropBridge to be a delivery system you can see working, not a background upload you have to take on faith.</p>
     </article>
 
     <!-- June 16 -->
     <article>
       <div class="meta">June 16, 2026 · <span class="tag">Engineering</span></div>
       <h2>On-device AI comes to Canvascope</h2>
-      <p class="lede">Most AI study tools stop working the moment your connection gets spotty. We wanted Canvascope to work differently.</p>
-      <p>We've been integrating support for Chrome's built-in Gemini Nano model, which lets certain AI workflows run directly on your device instead of going to the cloud. Paired with retrieval-augmented generation across your course PDFs, assignments, and Canvas content, Canvascope can give answers that are grounded in your own materials — with citations back to the original source.</p>
-      <p>In practice, that means:</p>
+      <p class="lede">A lot of AI study tools fall over the moment your wifi gets flaky. That bugged me, so Canvascope handles it differently.</p>
+      <p>I've been integrating support for Chrome's built-in Gemini Nano model, which lets some AI workflows run right on your device instead of making a round trip to the cloud. Combine that with retrieval-augmented generation over your course PDFs, assignments, and Canvas content, and Canvascope can answer in a way that's actually grounded in your own materials, with citations pointing back to where the answer came from.</p>
+      <p>What that gets you in day-to-day use:</p>
       <ul>
-        <li>AI that actually understands your courses, not just general knowledge</li>
-        <li>Lower latency for supported on-device features</li>
-        <li>More privacy, since some tasks never leave your device</li>
-        <li>Some features that keep working even without internet</li>
+        <li>AI that understands your specific courses, not just whatever it learned in general</li>
+        <li>Lower latency on the features that can run on-device</li>
+        <li>More privacy, because some of this never leaves your machine</li>
+        <li>A few features that keep working even when you've got no connection</li>
       </ul>
-      <p>We're excited about a future where educational AI isn't just more powerful — it's faster, more private, and built around a student's own knowledge.</p>
+      <p>The version of educational AI I'm building toward isn't only about being smarter. It's about being fast, staying private, and being anchored in what the student already knows.</p>
     </article>
 
     <!-- June 14 -->
     <article>
       <div class="meta">June 14, 2026 · <span class="tag">Engineering</span></div>
-      <h2>DropBridge v2: the handoff between Lectra and Canvascope is now nearly instant</h2>
-      <p>We rebuilt the way files move between Lectra on iPad and Canvascope on desktop, and it's one of the pieces of this whole project we're most proud of.</p>
-      <p>With DropBridge v2, sending a PDF from your iPad to your desktop feels immediate. There's no manual pairing — sign in once and the Canvascope extension auto-receives files. You get clear delivery confirmation, so your iPad knows the moment the desktop has finished downloading. And smarter prefetching loads PDFs in parallel on wake, so your library is ready before you reach for it.</p>
-      <p>What used to feel like a handoff now feels like one connected workspace.</p>
-      <p>Lectra itself is still in development, with a targeted launch in December 2026. It's being built around Apple's on-device Foundation Models, so students will be able to summarize PDFs, ask questions, and generate flashcards and quizzes without their coursework ever leaving the iPad. Private, fast, and invisible when it should be.</p>
+      <h2>DropBridge v2: the Lectra-to-Canvascope handoff is nearly instant now</h2>
+      <p>I rebuilt how files move between Lectra on the iPad and Canvascope on the desktop. Of everything in this project, it's one of the pieces I'm happiest with.</p>
+      <p>With DropBridge v2, sending a PDF from your iPad to your desktop just feels immediate. There's no manual pairing to fuss with. You sign in once and the Canvascope extension starts receiving files on its own. You get a real delivery confirmation, so the iPad knows the exact moment the desktop finished downloading. And prefetching is smarter now, loading PDFs in parallel when the app wakes, so your library is sitting there ready before you've even reached for it.</p>
+      <p>It stopped feeling like a handoff between two apps and started feeling like one workspace that happens to span two devices.</p>
+      <p>Lectra itself is still in development, aiming for a December 2026 launch. I'm building it on Apple's on-device Foundation Models, which means you'll be able to summarize PDFs, ask questions, and generate flashcards and quizzes without any of your coursework leaving the iPad. The goal is for that work to be private and quick, and to mostly stay out of your way.</p>
     </article>
 
     <!-- June 14 -->
     <article>
       <div class="meta">June 14, 2026 · <span class="tag">Engineering</span></div>
-      <h2>DropBridge got safer production routing</h2>
-      <p>Today, we repaired the DropBridge backend history before adding new delivery behavior. Ten production migrations were reconstructed from the remote migration table so local development matched the real Supabase project again.</p>
-      <p>With history reconciled, we added <code>sender_device_id</code> to uploads. That gives DropBridge a clean way to distinguish the device sending a file from the device meant to receive it, which matters for instant delivery confirmation and for avoiding duplicate or misdirected pickups.</p>
-      <p>It is backend plumbing, but it protects the thing students actually feel: a PDF leaves Lectra, wakes Canvascope, downloads on the right computer, and reports back without guesswork.</p>
+      <h2>Safer production routing for DropBridge</h2>
+      <p>Before I touched any delivery behavior, I had to fix the DropBridge backend's history. Ten production migrations had drifted, so I reconstructed them from the remote migration table until local development lined up with the real Supabase project again.</p>
+      <p>Once the history was clean, I added <code>sender_device_id</code> to uploads. It gives DropBridge a reliable way to tell the device that sent a file apart from the device that's supposed to receive it. That distinction is what makes instant delivery confirmation possible, and it's how you stop a file from getting picked up twice or landing on the wrong machine.</p>
+      <p>None of this is visible. It's backend plumbing. But it protects the part students do feel: a PDF leaves Lectra, wakes Canvascope, downloads on the right computer, and reports back, with no guessing about whether it worked.</p>
     </article>
 
     <!-- June 13 -->
     <article>
       <div class="meta">June 13, 2026 · <span class="tag">Product</span></div>
       <h2>Student Profiles: AI that doesn't treat every student the same</h2>
-      <p>Canvascope already understood your courses — lectures, PDFs, assignments, deadlines, study schedules. What it didn't understand was the student behind them. This week we shipped Student Profiles to close that gap.</p>
-      <p>Now Canvascope adapts to your major, your academic goals, and how you like to learn, across every AI feature. Course Brain can explain the same concept differently for a pre-med biology student than for a CS major. Smart Planner can build schedules around your real course load. Chat can tailor help to the way you actually study.</p>
-      <p>We built it around two principles. <strong>Privacy first:</strong> profiles are editable, deletable, and fully under the student's control. <strong>Efficient by design:</strong> personalization is handled separately from course context, which preserves prompt caching and keeps costs down without sacrificing quality.</p>
-      <p>There's a lot more to build here, but it's a big step toward making AI feel less generic and more personal.</p>
+      <p>Canvascope already knew your courses pretty well. Lectures, PDFs, assignments, deadlines, study schedules. The thing it didn't know was you, the student sitting behind all of it. Student Profiles, which I shipped this week, is about closing that gap.</p>
+      <p>Now Canvascope adapts to your major, your goals, and the way you actually like to learn, and it does that everywhere AI shows up. Course Brain will explain the same concept one way to a pre-med bio student and a different way to a CS major. Smart Planner builds schedules around your real course load. Chat shapes its help around how you study.</p>
+      <p>Two things I held myself to while building it. First, privacy: your profile is editable, deletable, and completely under your control. Second, efficiency: I keep the personalization separate from the course context, which means prompt caching still works and the costs don't balloon, and you don't give up any quality to get there.</p>
+      <p>There's plenty left to do on this, but it's a real step toward AI that feels like it's talking to you specifically instead of to a generic student.</p>
     </article>
 
     <!-- June 13 -->
     <article>
       <div class="meta">June 13, 2026 · <span class="tag">Security</span></div>
-      <h2>Canvascope added real account-event protection</h2>
-      <p>Today, Canvascope added Cross-Account Protection through Google's RISC security event stream. When Google reports a high-risk account event, Canvascope can validate the signed event, dedupe it, map it to the matching Supabase user, and revoke active sessions.</p>
-      <p>Account-disabled events also set a sign-in block that the Supabase custom access token hook enforces on both sign-in and token refresh. If the account is later re-enabled, the block can be cleared. The hook is intentionally fail-open so an internal error cannot lock out the whole user base.</p>
-      <p>This is not flashy UI, but it is the kind of infrastructure a student workspace needs before it handles more files, identity, and device-to-device workflow.</p>
+      <h2>Real account-event protection in Canvascope</h2>
+      <p>Canvascope now has Cross-Account Protection wired up through Google's RISC security event stream. When Google reports a high-risk event on an account, Canvascope validates the signed event, dedupes it, maps it to the right Supabase user, and revokes their active sessions.</p>
+      <p>If the event is an account-disabled one, it also sets a sign-in block that the Supabase custom access token hook enforces on both sign-in and token refresh. Re-enable the account later and the block clears. I made the hook fail-open on purpose: if something inside it errors, I'd much rather it let people through than have one internal bug lock out the entire user base.</p>
+      <p>It's not a feature anyone will see in the UI. But it's the kind of groundwork a student workspace needs in place before it starts handling more files, more identity, and more device-to-device traffic.</p>
     </article>
 
     <!-- June 11 -->
     <article>
       <div class="meta">June 11, 2026 · <span class="tag">Engineering</span></div>
       <h2>Canvascope v10 connected AI, planning, and DropBridge</h2>
-      <p class="lede">Today, Canvascope v10 turned several separate experiments into one extension architecture.</p>
-      <p>The AI side panel moved onto a shared route that can use Chrome's on-device model when it is available and fall back through Supabase when needed. The RAG layer can read the active LMS page, parse PDFs, pull stored assignments and notes, and keep retrieval grounded enough that answers stay attached to real course material.</p>
-      <p>Smart Planner also became a real surface. It reads upcoming deadlines, drafts study blocks, and turns approved blocks into saved to-dos, reminders, or calendar events. That work came out of the syllabus autopilot prototype and made planning part of the same assistant instead of a separate command.</p>
-      <p>DropBridge v3 landed in the same release line with realtime receipts, heartbeat updates, hot-path indexes, targeted upload claims, and fallback polling. The point was not just speed; it was making Lectra-to-Canvascope delivery observable enough to debug when a file does not arrive.</p>
+      <p class="lede">v10 is mostly a story about consolidation. Several things I'd built as separate experiments finally became one extension.</p>
+      <p>The AI side panel now runs on a shared route that uses Chrome's on-device model when it's there and falls back through Supabase when it isn't. The RAG layer reads the active LMS page, parses PDFs, pulls in stored assignments and notes, and keeps retrieval grounded enough that the answers stay tied to your actual course material instead of drifting off into generic territory.</p>
+      <p>Smart Planner grew into a real surface in this release. It reads your upcoming deadlines, drafts study blocks, and turns the blocks you approve into saved to-dos, reminders, or calendar events. It grew out of the syllabus autopilot prototype, and folding it into the assistant meant planning stopped being a separate command you had to remember.</p>
+      <p>DropBridge v3 shipped in the same release line: realtime receipts, heartbeat updates, hot-path indexes, targeted upload claims, and fallback polling. Speed was part of it, but the bigger reason was visibility. When a file doesn't show up on the other device, I want to be able to actually see where it got stuck.</p>
     </article>
 
     <!-- June 9 -->
     <article>
       <div class="meta">June 9, 2026 · <span class="tag">Product</span></div>
       <h2>Syllabus autopilot became the planner prototype</h2>
-      <p>Today, Canvascope started turning course deadlines into actual study plans. The syllabus autopilot work taught the extension to read academic structure, split deadlines into useful work blocks, and prepare those blocks for the same to-do, calendar, and reminder systems students already use.</p>
-      <p>This was the bridge between search and planning. Instead of only finding the syllabus or listing due dates, Canvascope began asking what the student should do next and drafting the work into something editable.</p>
-      <p>That prototype became the foundation for Smart Planner in v10.</p>
+      <p>This is the week Canvascope started turning course deadlines into actual study plans. The syllabus autopilot work taught the extension to read the structure of a course, break deadlines down into work blocks that mean something, and hand those blocks off to the same to-do, calendar, and reminder systems you're already using.</p>
+      <p>I think of it as the bridge between search and planning. Up to this point Canvascope could find the syllabus or list your due dates. With this, it started taking the next step and asking what you should actually do about those dates, then drafting it into something you could edit.</p>
+      <p>The prototype didn't stay a prototype for long. It's what Smart Planner in v10 was built on.</p>
     </article>
 
     <!-- May 28 -->
     <article>
       <div class="meta">May 28, 2026 · <span class="tag">Engineering</span></div>
       <h2>v8 made the side panel a real AI workspace</h2>
-      <p>Today, the Canvascope side panel became more than a place to type a prompt. The v8 work pulled together local document parsing, active-page context, semantic matching, streaming fixes, and a dedicated chat surface that could sit beside a student's LMS instead of replacing it.</p>
-      <p>The important change was context. Canvascope could start answering with awareness of the page, the student's indexed materials, and the course artifacts already stored locally. That set up the later v10 work where AI, planning, profiles, and citations share one path.</p>
+      <p>With v8, the Canvascope side panel stopped being just a box to type a prompt into. The work pulled together local document parsing, active-page context, semantic matching, a bunch of streaming fixes, and a dedicated chat surface that sits next to your LMS rather than trying to replace it.</p>
+      <p>The thing that actually mattered here was context. Canvascope could finally answer with some awareness of the page you're on, the materials you've indexed, and the course files already sitting on your machine. That's the groundwork the later v10 work stands on, where AI, planning, profiles, and citations all run through one path.</p>
     </article>
 
     <!-- May 24 -->
     <article>
       <div class="meta">May 24, 2026 · <span class="tag">Product</span></div>
       <h2>Canvascope 7.0.0: turning Canvas into a real student workspace</h2>
-      <p class="lede">Our biggest update yet. What started as a way to search Canvas faster is becoming a full productivity layer for students.</p>
-      <p>The headline feature is <strong>Zen Mode</strong>. Type <code>/zen</code> inside Canvas and you open a full focus space built right into your school workflow:</p>
+      <p class="lede">This is the biggest update I've put out. The thing that began as a faster way to search Canvas is turning into an actual productivity layer for students.</p>
+      <p>The headline is <strong>Zen Mode</strong>. Type <code>/zen</code> inside Canvas and a full focus space opens up right inside your school workflow:</p>
       <ul>
         <li>A built-in Pomodoro timer</li>
         <li>A current goal pulled from your to-do list</li>
         <li>Up-next task tracking</li>
         <li>Breathing animations for focus breaks</li>
         <li>Optional soundscapes like brown noise and binaural beats</li>
-        <li>Work and break presets designed for deep study sessions</li>
+        <li>Work and break presets meant for deep study sessions</li>
       </ul>
-      <p>Canvas is already where students check assignments, grades, files, and deadlines. Zen Mode brings the actual studying into that same place.</p>
-      <p>We also introduced <strong>Themes</strong>. You can now customize how Canvas looks and feels, starting with <em>Paper</em> — a warmer, cleaner theme that makes Canvas feel less harsh. Try it with <code>/theme paper</code>.</p>
-      <p>Also in this release: a new slash-command menu, theme switching inside Canvas, GPA and grade tools, quick notes and notebook browsing, custom to-dos, sync tools, and faster shortcuts for pinned items, dashboards, courses, and due dates.</p>
-      <p>Zen Mode got me through finals week. This is the first real step toward Canvascope feeling like an operating system for students — and it's just the beginning.</p>
+      <p>Canvas is already where you go to check assignments, grades, files, and deadlines. What Zen Mode does is put the studying itself in that same place, instead of in some other tab you'll forget about.</p>
+      <p>I also added <strong>Themes</strong>, so you can change how Canvas looks. The first one is <em>Paper</em>, a warmer, cleaner take that takes some of the harshness out of the default. Try it with <code>/theme paper</code>.</p>
+      <p>A few more things landed in this release too: a new slash-command menu, theme switching inside Canvas, GPA and grade tools, quick notes and notebook browsing, custom to-dos, sync tools, and faster shortcuts for pinned items, dashboards, courses, and due dates.</p>
+      <p>I genuinely used Zen Mode to get through my own finals week. It's the first version of Canvascope that started to feel less like an extension and more like a place students could actually work.</p>
     </article>
 
     <!-- May 21 -->
     <article>
       <div class="meta">May 21, 2026 · <span class="tag">Notes</span></div>
       <h2>When Canvas went down at Berkeley, your materials didn't have to</h2>
-      <p>This week's Canvas outage at UC Berkeley was a reminder of how fragile student workflows can be during finals. When bCourses went down following a cybersecurity incident, a lot of students suddenly lost access to assignments, lecture files, and course materials at the worst possible moment.</p>
-      <p>One of the reasons I started building Canvascope was frustration with how dependent students are on digging through LMS pages just to find basic content. Over the past few months I'd been building systems to import and index materials directly from my courses — so I could search across assignments, files, modules, pages, and announcements from one place. During the outage, those indexed materials were still there.</p>
-      <p>It reinforced something I keep coming back to: current LMS platforms are designed around how instructors upload content, not around how students actually learn and work. Canvascope started as a better way to search Canvas. We're building toward something bigger — a student-centered workspace, and eventually a student-first LMS. The best tools don't just work when systems are online; they help people keep working when systems fail.</p>
+      <p>The Canvas outage at UC Berkeley this week was a pretty stark reminder of how fragile student workflows get during finals. bCourses went down after a cybersecurity incident, and a lot of students lost access to their assignments, lecture files, and course materials at exactly the wrong time of year.</p>
+      <p>Part of why I started Canvascope in the first place was being annoyed at how much students have to dig through LMS pages just to find basic stuff. Over the last few months I'd been building the import and indexing systems so I could pull my own courses into one place and search across assignments, files, modules, pages, and announcements. When the outage hit, that indexed copy was still sitting right there.</p>
+      <p>It drove home something I keep landing on. These platforms are built around how instructors upload content, not around how students actually study. Canvascope began as a better way to search Canvas, and I'm pushing it toward something larger: a workspace built for students, and eventually a student-first LMS. An outage during finals shouldn't be able to take your own coursework away from you.</p>
     </article>
 
     <!-- May 19 -->
     <article>
       <div class="meta">May 19, 2026 · <span class="tag">Notes</span></div>
       <h2>Reliability is the feature</h2>
-      <p>Canvas going down during finals prep is close to a nightmare scenario. Students lose access to the exact materials they need most, at the exact worst time.</p>
-      <p>So I'm genuinely proud that during this outage, Canvascope kept working for any previously indexed content, and any files already synced into Lectra stayed accessible. That's the whole idea we're building toward: students should be able to reach their coursework even when the systems they depend on fail.</p>
+      <p>Canvas going down during finals prep is about as bad as it gets. You lose access to the exact materials you need most, at the exact moment you need them.</p>
+      <p>So it meant a lot to me that during this outage Canvascope just kept working for anything you'd already indexed, and any files you'd synced into Lectra stayed right where they were. That reliability is the whole point of what I'm building. Your coursework should still be reachable even when the systems it normally lives on go dark.</p>
     </article>
 
     <!-- April 21 -->
     <article>
       <div class="meta">April 21, 2026 · <span class="tag">Product</span></div>
-      <h2>Canvascope doesn't just search anymore — it predicts</h2>
-      <p>Students don't search randomly. We follow routines. Every Friday I'm working on the same lab.</p>
-      <p>So we taught Canvascope to anticipate. When you open it now, it suggests what you're probably looking for based on patterns like the time of week and your coursework. For me, that Friday lab is already there before I type a single character.</p>
-      <p>No digging through modules. No clicking through tabs. No trying to remember where one file is buried. Just open, and it's there. This is the direction I care about most: tools that don't only respond to input, but anticipate it. Less searching, more doing.</p>
+      <h2>Canvascope predicts what you're after now</h2>
+      <p>Students don't really search at random. We're creatures of routine. Every Friday, for instance, I'm working on the same lab.</p>
+      <p>So I taught Canvascope to anticipate. Open it now and it'll suggest what you're probably reaching for, going off patterns like the time of week and what's on your plate in each course. In my case, that Friday lab is already sitting there before I've typed a single character.</p>
+      <p>No going through modules, no clicking around tabs, no trying to remember which folder you buried the file in. You open it and it's there. This is the part of the work I care about most, building something that gets ahead of you a little instead of just waiting for you to tell it what you want.</p>
     </article>
 
     <!-- April 18 -->
     <article>
       <div class="meta">April 18, 2026 · <span class="tag">Notes</span></div>
       <h2>A class glitch, and a quiet save</h2>
-      <p>There was a glitch in one of my classes this week. Canvas Pages for the course stopped working, and key materials were basically inaccessible while the instructors worked on a fix.</p>
-      <p>Normally that's game over. But Canvascope had already indexed the course, so I just searched — and everything was still there. No stress, no waiting. Most tools only work when everything works. The best ones work when things break.</p>
+      <p>One of my classes hit a glitch this week. The Canvas Pages for the course just stopped loading, and the materials were basically locked away while the instructors sorted out a fix.</p>
+      <p>That's usually where you're stuck waiting. But Canvascope had already indexed the course, so I searched and everything came right up. No stress about it, no waiting on anyone. That's exactly the moment I built it for: not the easy days, but the ones where the system you depend on quietly falls over.</p>
     </article>
 
     <!-- April 16 -->
     <article>
       <div class="meta">April 16, 2026 · <span class="tag">Product</span></div>
-      <h2>Canvas → iPad → annotated → back to work, in seconds</h2>
-      <p>I just shipped a feature I've wanted for a long time: find a file in Canvas, send it to your iPad, annotate it, and drop it right back into your workflow.</p>
-      <p>Under the hood it's a secure file handoff with real-time sync, and it's fully user-controlled — nothing happens unless you click. But the tech isn't the point. The point is going from finding to opening to annotating in seconds. That's the difference between a tool and a workflow.</p>
+      <h2>Canvas to iPad to annotated and back, in seconds</h2>
+      <p>I just shipped something I've wanted for a long time. Find a file in Canvas, send it to your iPad, annotate it, and drop it straight back into whatever you were doing.</p>
+      <p>Underneath it's a secure file handoff with real-time sync, and it stays fully in your hands. Nothing moves unless you click. But the mechanics aren't really what I'm excited about. What I'm excited about is that the whole loop, finding the file to opening it to marking it up, now takes seconds. That speed is the difference between a feature people try once and one they actually fold into how they work.</p>
     </article>
 
     <!-- April 14 -->
     <article>
       <div class="meta">April 14, 2026 · <span class="tag">Notes</span></div>
       <h2>"Wait… how are you getting that?"</h2>
-      <p>Today in class, a course Canvas page stopped working and everyone around me started stressing. I wasn't — Canvascope had already indexed the course, so I just searched and everything was still there.</p>
-      <p>The person next to me looked over: "Wait… how are you getting that?" That's when it clicked for me. Most tools only work when everything is working. The best ones work when things break. If Canvas has ever failed you at the worst possible time, you already know the feeling.</p>
+      <p>In class today a course Canvas page went down and everyone around me started to panic. I didn't, because Canvascope had already indexed the course, so I just searched and pulled up what I needed.</p>
+      <p>The guy next to me leaned over: "Wait… how are you getting that?" That's the moment the whole thing clicked for me. The value isn't in the days when Canvas works fine. It's in the days it doesn't, and you keep going anyway. If Canvas has ever dropped out on you right before a deadline, you know the exact feeling I mean.</p>
     </article>
 
     <!-- April 11 -->
     <article>
       <div class="meta">April 11, 2026 · <span class="tag">Product</span></div>
       <h2>From seven steps to one</h2>
-      <p>Most students lose hours every week just navigating Canvas: click, module, scroll, wrong file, repeat. We cut that down to a single step.</p>
-      <p>And with the latest update, sending a file to your iPad is essentially instant — under five seconds from open to annotate. No emailing yourself PDFs, no AirDrop juggling. Just click, and it's there. That's the bar now.</p>
+      <p>Most students lose hours a week just moving around Canvas. Click, open a module, scroll, realize it's the wrong file, start over. I got that down to a single step.</p>
+      <p>And with the latest update, getting a file onto your iPad is basically instant, under five seconds from opening it to marking it up. You're not emailing PDFs to yourself or wrestling with AirDrop. You click and it's already there. Once a workflow gets that quick, going back to the old way feels absurd.</p>
     </article>
 
     <!-- April 9 -->
     <article>
       <div class="meta">April 9, 2026 · <span class="tag">Product</span></div>
       <h2>The biggest update yet: from extension to full workflow platform</h2>
-      <p>Three months ago, Canvascope was a Chrome extension that helped you search Canvas faster. Today it's becoming a full student workflow platform. Here's what's new:</p>
+      <p>Three months ago Canvascope was a Chrome extension that helped you search Canvas faster. It's turning into a full student workflow platform now. Here's what's in this update:</p>
       <ul>
-        <li><strong>Lectra PDF Viewer Overlay</strong> — open, view, and annotate PDFs directly in your browser. Canvascope detects PDFs on your LMS page and overlays annotation controls instantly. No tab-switching, no downloading.</li>
-        <li><strong>Lectra for iPad</strong> — our companion app is entering its launch window. Apple Pencil-native annotation built specifically for coursework: mark up slides and readings, then send them back into your workflow.</li>
-        <li><strong>DropBridge</strong> — send a PDF from Canvascope to Lectra, annotate it, send it back. One account-linked pipeline. No email, no AirDrop, no cloud-drive hunting.</li>
-        <li><strong>Full web workspace</strong> — courses, assignments, documents, and deadlines in one dashboard, with Course Brain, workflow queues, and document tracking. Not just a landing page anymore.</li>
-        <li><strong>Brightspace + D2L support</strong> — Canvascope isn't just for Canvas. Students on Brightspace and D2L get the same search and workflow experience.</li>
-        <li><strong>Privacy-first, always</strong> — everything runs local-first. Your data stays in your browser unless you choose otherwise. No ads, no data selling. Ever.</li>
+        <li><strong>Lectra PDF Viewer Overlay</strong> — open, view, and annotate PDFs right in your browser. Canvascope spots PDFs on your LMS page and drops annotation controls on top of them, so there's no switching tabs or downloading first.</li>
+        <li><strong>Lectra for iPad</strong> — the companion app is entering its launch window. It's Apple Pencil annotation built specifically for coursework, so you can mark up slides and readings and send them back into your workflow.</li>
+        <li><strong>DropBridge</strong> — send a PDF from Canvascope to Lectra, annotate it, send it back, all over one account-linked pipeline. No emailing it to yourself and no hunting through a cloud drive afterward.</li>
+        <li><strong>Full web workspace</strong> — courses, assignments, documents, and deadlines in one dashboard, with Course Brain, workflow queues, and document tracking. It's an actual workspace now, not just a landing page.</li>
+        <li><strong>Brightspace + D2L support</strong> — Canvascope isn't only for Canvas anymore. If you're on Brightspace or D2L, you get the same search and workflow.</li>
+        <li><strong>Privacy-first, always</strong> — everything runs local-first, and your data stays in your browser unless you decide otherwise. No ads and no selling your data, ever.</li>
       </ul>
-      <p>We're building the tools we wish we'd had as students. More coming soon.</p>
+      <p>Mostly I'm just building the tools I wish I'd had as a student. There's more on the way.</p>
     </article>
 
     <!-- April 7 -->
     <article>
       <div class="meta">April 7, 2026 · <span class="tag">Notes</span></div>
-      <h2>Canvas was built for institutions. We're building for students.</h2>
-      <p>Most LMS platforms are built for administration, and it shows: search is bad, navigation is slow, everything feels fragmented.</p>
-      <p>We're flipping that. Lectra and Canvascope are built around how students actually study, actually search, and actually take notes. The goal isn't a better tool — it's a better system. And this is just the beginning.</p>
+      <h2>Canvas was built for institutions. I'm building for students.</h2>
+      <p>Most LMS platforms are built for the administration side, and you can feel it the moment you use one. Search is bad, navigation drags, and everything's scattered across pages that don't talk to each other.</p>
+      <p>I'm trying to come at it from the other direction. Lectra and Canvascope start from how students actually study and search and take notes, and work backward from there. I'm not after a slightly nicer version of Canvas. I want the whole system to fit the people using it, and this is the early part of that.</p>
     </article>
 
     <!-- April 4 -->
     <article>
       <div class="meta">April 4, 2026 · <span class="tag">Product</span></div>
       <h2>Search by intent, not by keyword</h2>
-      <p>Ever spent ten minutes hunting for one file on Canvas? Same. So we built something better.</p>
-      <p>With the latest update, you can search your entire course instantly and find what you <em>meant</em>, not just exact keywords — then send any PDF to your iPad in one click. No digging, no guessing, no friction. Once you use it, it feels obvious.</p>
+      <p>Ever burned ten minutes looking for one file on Canvas? Same here, more times than I'd like to admit. So I built something better.</p>
+      <p>With the latest update you can search a whole course instantly and turn up what you actually <em>meant</em>, not just files that happen to match the exact words you typed. Find the PDF, send it to your iPad in one click, and get on with it. The first time it pulls up the right file from a vague search, the old keyword way starts to feel broken.</p>
     </article>
 
     <!-- March 21 -->
     <article>
       <div class="meta">March 21, 2026 · <span class="tag">Notes</span></div>
-      <h2>We're not building a faster AirDrop</h2>
-      <p>AirDrop moves files. What we're building between Canvascope and Lectra moves students straight into work.</p>
-      <p>If AirDrop already works, why switch? Because this isn't about sending a PDF faster — it's about removing the friction between finding class material and actually using it. A student can find what they need in Canvascope and open it in Lectra right away to read, highlight, and annotate without breaking focus. AirDrop is general-purpose file sharing. Canvascope plus Lectra is a workflow built for students.</p>
+      <h2>This isn't a faster AirDrop</h2>
+      <p>AirDrop moves a file from one device to another. The thing I'm building between Canvascope and Lectra is trying to move you into the actual work.</p>
+      <p>So if AirDrop already does the job, why bother switching? Because the win isn't a slightly faster transfer. It's collapsing the gap between finding class material and getting your hands on it. You find what you need in Canvascope, open it in Lectra, and start reading and highlighting and annotating without losing your train of thought. AirDrop is a general-purpose tool that doesn't know or care that you're a student. This was built knowing exactly that.</p>
     </article>
 
     <!-- March 19 -->
     <article>
       <div class="meta">March 19, 2026 · <span class="tag">Product</span></div>
       <h2>Tune your own search</h2>
-      <p>Search shouldn't be one-size-fits-all — every student organizes their courses differently.</p>
-      <p>So we added a Custom Algorithm setting that lets you tune how search works, prioritizing things like due dates, course context, or file types. The best product experience isn't forcing one workflow on everyone. It's adapting to yours.</p>
+      <p>Search shouldn't be one-size-fits-all. Every student organizes their courses a little differently, and the way you'd want results ranked depends on that.</p>
+      <p>So I added a Custom Algorithm setting that lets you tune how search behaves, weighting things like due dates, course context, or file types however makes sense for you. I'd rather the product bend around how you already work than make you bend around it.</p>
     </article>
 
     <!-- March 17 -->
     <article>
       <div class="meta">March 17, 2026 · <span class="tag">Product</span></div>
       <h2>Search that understands what you meant</h2>
-      <p>Students lose minutes every time they look for something in Canvas — not because the content isn't there, but because it's named things like <code>1BLprelab5</code>, "Lab 5 Quiz," "Modules," or "Attendance."</p>
-      <p>So a student searches "physics lab this week." Most systems rely on exact labels and miss what the student actually means. We fixed that. Now search infers intent: if Canvas shows Lab 5 due this week, we surface the related lab materials automatically, even when the file names look nothing alike. One search, one result, done. It should have always worked this way.</p>
+      <p>Students lose minutes hunting for things in Canvas, and it's usually not because the content is missing. It's because it's filed under names like <code>1BLprelab5</code>, "Lab 5 Quiz," "Modules," or "Attendance."</p>
+      <p>So you search "physics lab this week." Most systems lean on the literal label and miss what you obviously meant. I fixed that. Search now reads the intent behind the query: if Canvas shows Lab 5 due this week, Canvascope surfaces the related lab materials on its own, even when none of the file names look anything like what you typed. You search once and the right thing comes up. This is how it should have worked from the start.</p>
     </article>
 
     <!-- March 14 -->
     <article>
       <div class="meta">March 14, 2026 · <span class="tag">Product</span></div>
-      <h2>Canvascope 4.0.0: the most underrated feature is removing seven steps</h2>
-      <p>The most underrated product feature isn't AI. It's deleting annoying steps. With 4.0.0, sending class PDFs from Canvas to Lectra on iPad is far faster and far simpler.</p>
-      <p>Before, the workflow usually looked like: download the file, rename it, AirDrop it, find it again, import it, wait, then finally annotate. Now it's basically: open the PDF in Canvas, tap "Send to Lectra," keep working.</p>
-      <p>Under the hood we rebuilt the handoff with faster file delivery, real-time wake-ups for the signed-in iPad, fallback polling for reliability, and richer course-context sync so the receiving app understands more than just the raw file. In plain English: less file chaos, less context switching, less friction between laptop work and iPad annotation. Lectra, our iPad annotation app, is coming summer 2026.</p>
+      <h2>Canvascope 4.0.0: the underrated win is deleting seven steps</h2>
+      <p>People assume the most valuable thing a product can add is AI. Honestly, a lot of the time it's just removing the annoying steps. With 4.0.0, getting class PDFs from Canvas onto Lectra on the iPad is much faster and a lot less fiddly.</p>
+      <p>The old version of this went something like: download the file, rename it, AirDrop it, find it again on the iPad, import it, wait for it, then finally start annotating. Now you open the PDF in Canvas, tap "Send to Lectra," and keep working.</p>
+      <p>Underneath, I rebuilt the handoff: faster file delivery, real-time wake-ups for the iPad you're signed into, fallback polling so it stays reliable, and richer course-context sync so the receiving app knows more than just the raw bytes of the file. The short version is that there's a lot less shuffling files around and a lot less jumping between your laptop and your iPad. Lectra, the iPad annotation app, is coming summer 2026.</p>
     </article>
 
     <!-- March 12 -->
     <article>
       <div class="meta">March 12, 2026 · <span class="tag">Milestone</span></div>
       <h2>100,000 files indexed</h2>
-      <p>We just crossed 100,000 indexed files in Canvascope. The number matters less than what it represents: how much course content students manage every day, and how much it helps to find the right assignment, reading, or syllabus quickly and reliably.</p>
-      <p>Canvascope is built around exactly that — fast local-first search and planner-aware retrieval that surfaces what you need without breaking focus. Meanwhile, our iPad app Lectra is taking shape around Canvas handoff, a document library with folders and thumbnails, Course Brain, Gradescope import, and cloud backup controls. A meaningful milestone, and a strong sign of momentum across both products.</p>
+      <p>Canvascope just passed 100,000 indexed files. The round number isn't really the point. What gets me is what's behind it: how much course content students are juggling on any given day, and how much of a difference it makes to pull up the right assignment or reading or syllabus quickly and have it actually be the right one.</p>
+      <p>That's the whole thing Canvascope is built around, fast local-first search and planner-aware retrieval that puts what you need in front of you without yanking you out of what you were doing. On the iPad side, Lectra is coming together around Canvas handoff, a document library with folders and thumbnails, Course Brain, Gradescope import, and cloud backup controls. Good milestone, and a sign both products are moving.</p>
     </article>
 
     <!-- March 9 -->
     <article>
       <div class="meta">March 9, 2026 · <span class="tag">Engineering</span></div>
-      <h2>A first look at Lectra, our iPad app</h2>
-      <p>Lectra is the Apple Pencil-first iPad app we're building as part of the Canvascope ecosystem. The goal is to make PDF annotation fast and natural on iPad while keeping a reliable workflow between iPad and desktop. What's in the current build:</p>
+      <h2>A first look at Lectra, the iPad app</h2>
+      <p>Lectra is the Apple Pencil-first iPad app I'm building alongside the rest of Canvascope. What I'm after is PDF annotation that feels fast and natural on the iPad, with a handoff to and from the desktop that you can actually count on. Here's what's in the current build:</p>
       <ul>
         <li>A Pencil-first PDF editor with pen, highlighter, eraser, and lasso tools, plus adjustable stroke controls</li>
         <li>A document vault with folders, search, recents, and grid/list browsing</li>
@@ -783,16 +783,16 @@
         <li>A Course Brain view for exploring coursework and notes as a graph and timeline</li>
         <li>Optional cloud backup with iCloud-aware fallback behavior</li>
       </ul>
-      <p>We're testing internally on TestFlight now. A huge thank you to everyone trying early builds and sharing feedback — it's directly shaping what Lectra becomes.</p>
+      <p>It's in internal TestFlight testing right now. Thank you to everyone who's been running the early builds and sending feedback. It's shaping the app in real, specific ways.</p>
     </article>
 
     <!-- March 7 -->
     <article>
       <div class="meta">March 7, 2026 · <span class="tag">Milestone</span></div>
       <h2>Canvascope is live on the Chrome Web Store</h2>
-      <p>Canvascope started as a fix for a problem I kept hitting as a student: finding anything in Canvas is harder than it should be. Today it's a real, installable product.</p>
-      <p>Canvascope is a privacy-first Chrome extension that indexes your course materials locally and lets you search across assignments, files, and modules in plain language. It's local-first for performance and privacy, with zero third-party analytics or tracking, optimized for low-latency search, and designed to extend into bigger integrations down the line.</p>
-      <p>This is where it all begins. Thank you to everyone who tested early versions, reported bugs, and shared feedback — your input shaped this release and everything that's come since.</p>
+      <p>Canvascope started as a fix for something that kept getting under my skin as a student: finding anything in Canvas is harder than it has any right to be. As of today it's a real product you can install.</p>
+      <p>It's a privacy-first Chrome extension that indexes your course materials locally and lets you search across assignments, files, and modules in plain language. Keeping it local-first does two things at once, since it's both faster and means your data isn't going anywhere it doesn't have to. There's no third-party analytics or tracking, the search is tuned to feel instant, and the whole thing is built to grow into bigger integrations later on.</p>
+      <p>This is the starting line. Thank you to everyone who ran the early versions, reported bugs, and told me what wasn't working. That feedback shaped this release, and it's shaped everything since.</p>
     </article>
 
   </main>

@@ -6,7 +6,7 @@ Canvascope is a privacy-first AI study workspace for students. It combines LMS s
 
 Canvascope helps students find and use course material faster. The browser-side workspace can search LMS content, reason over course pages and PDFs, plan study work from deadlines, and move finished documents back into browser workflows.
 
-Canvascope is designed around student workflows rather than institutional LMS navigation. The product direction is to reduce the gap between finding coursework, understanding it, annotating it, planning around it, and submitting finished work.
+Canvascope is designed around student workflows. The product direction is to reduce the gap between finding coursework, understanding it, annotating it, planning around it, and submitting finished work.
 
 ## Core Components
 
@@ -24,7 +24,7 @@ DropBridge is the secure file handoff system between Canvascope and Lectra. It r
 
 ### Smart Planner
 
-Smart Planner turns course deadlines into editable study blocks, todos, reminders, and calendar-ready plans. It connects course context to planning instead of leaving deadlines as isolated dates.
+Smart Planner turns course deadlines into editable study blocks, todos, reminders, and calendar-ready plans, using course context to inform the plan.
 
 ### Student Profiles
 
