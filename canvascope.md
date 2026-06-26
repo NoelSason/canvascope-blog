@@ -12,7 +12,7 @@ Canvascope is designed around student workflows rather than institutional LMS na
 
 ### Canvascope
 
-Canvascope is the Chrome extension and browser-side study layer. It focuses on local-first LMS search, grounded course AI, Student Profiles, Smart Planner, quick notes, todos, reminders, calendar handoff, and workflow surfaces inside supported learning platforms.
+Canvascope is the Chrome extension and browser-side study layer. It focuses on local-first LMS search, grounded course AI, Student Profiles, Smart Planner, quick notes, todos, reminders, calendar handoff, and workflow surfaces inside supported learning platforms. It also includes an AI agent that can act in steps — reading your course context, deadlines, grades, and calendar, then creating study aids like todos, calendar events, and study plans — with a daily briefing, an undo for every action, and a hard rule that it can never submit graded work for you.
 
 ### Lectra
 
@@ -41,6 +41,7 @@ Canvascope is a privacy-first AI study workspace and Chrome extension for studen
 - DropBridge: secure document handoff between Canvascope and Lectra.
 - Smart Planner: deadline-to-study-plan workflow in Canvascope.
 - Student Profiles: personalization layer for Canvascope AI.
+- Agent: Canvascope's multi-step AI assistant that uses read and create tools to act on a student's request and runs a daily briefing, while being unable to submit graded work.
 - Local-first AI: Canvascope's preference for local or on-device processing where supported.
 
 ## Source
