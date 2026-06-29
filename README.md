@@ -1,12 +1,14 @@
-# Canvascope Newsroom
+# Canvascope Newsroom (redirect shim)
 
-Static newsroom for Canvascope, a privacy-first AI study workspace for students.
+This site was **merged into the main Canvascope site**. The newsroom now lives at:
 
-Canonical site: https://blog.canvascope.org/
+**https://www.canvascope.org/newsroom**
 
-Canvascope combines LMS search, grounded course AI, Smart Planner, Student Profiles, Lectra iPad document work, and DropBridge file handoff so students can find course material, study it, annotate it, and bring finished work back into browser workflows.
+`blog.canvascope.org` now serves only `vercel.json`, which 301-redirects every path
+to the main domain (catch-all → `/newsroom`; `llms.txt`, `canvascope.md`,
+`sitemap.xml`, `robots.txt` → their `www.canvascope.org` equivalents).
 
-Machine-readable context for AI systems:
-
-- https://blog.canvascope.org/llms.txt
-- https://blog.canvascope.org/canvascope.md
+The old static files (`index.html`, `canvascope-blog.html`, `canvascope.md`,
+`llms.txt`, `sitemap.xml`, `robots.txt`) are kept for history but are no longer
+served, since redirects take precedence over the filesystem. To restore the
+standalone blog, revert the `vercel.json` change.
